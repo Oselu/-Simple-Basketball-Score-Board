@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-section">
+                <h3>HOME</h3>
+                <p id="sc-board"> 0 </p>
+                <div class="scores">
+                    <div class="plus-one" onclick="OnePointerA()">
+                        <scan class="first-one" > +1 </scan>
+                    </div>
+                    <div class="plus-two" onclick="TwoPointerA()">
+                        <scan class="second-one"> +2 </scan>
+                    </div>
+                    <div class="plus-three" onclick="ThreePointerA()">
+                        <scan class="third-one">+3</scan>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <h3 class="right-Aw">AWAY</h3>
+                <p id="sc-board-away"> 0 </p>
+                <div class="scores-away">
+                    <div class="plus-one-away" onclick="OnePointerB()">
+                        <scan class="first-one-away" > +1 </scan>
+                    </div>
+                    <div class="plus-two-away" onclick="TwoPointerB()">
+                        <scan class="second-one-away"> +2 </scan>
+                    </div>
+                    <div class="plus-three-away" onclick="ThreePointerB()">
+                        <scan class="third-one-away">+3</scan>
+                    </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

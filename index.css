@@ -1,0 +1,170 @@
+@font-face { 
+    font-family: myFont;
+    src: url(CursedTimer.ttf);
+} 
+
+body {
+    margin: 0;
+}
+
+p{
+    font-size: 72px;
+    background-color: #080001;
+    color: #e11d48;
+    text-align: center;
+    padding: 16px;
+    margin: 0px;
+    font-family: myFont;
+    border-radius: 6px;
+
+}
+
+h3{
+    text-align: center;
+    font-size:36px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    color: white;
+
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #064E3B;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+    padding-top: 64px;
+    padding-bottom:64px ;
+
+}
+
+#sc-board{
+    width: 132px;
+    display: inline-block;
+    margin: auto;
+}
+
+#sc-board-away{
+    width: 132px;
+    display: inline-block;
+    margin: auto;
+}
+
+.scores{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.scores-away{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.plus-one{
+    padding: 12px;
+    outline: 2px solid #059669;
+    border-radius: 2px;
+    margin-right: 12px;
+ 
+}
+.plus-one-away{
+    padding: 12px;
+    outline: 2px solid #059669;
+    border-radius: 2px;
+    margin-right: 12px;
+
+}
+
+
+.first-one{
+    font-family: myFont;
+    font-size: 16px;
+    color: white;
+}
+.first-one-away{
+    font-family: myFont;
+    font-size: 16px;
+    color: white;
+}
+
+.plus-two{
+    padding: 12px;
+    outline: 2px solid #059669;
+    border-radius: 2px;
+    margin-right: 12px;
+ 
+}
+
+.plus-two-away{
+    padding: 12px;
+    outline: 2px solid #059669;
+    border-radius: 2px;
+    margin-right: 12px;
+ 
+}
+
+
+.second-one{
+    font-family: myFont;
+    font-size: 16px;
+    color: white;
+}
+
+.second-one-away{
+    font-family: myFont;
+    font-size: 16px;
+    color: white;
+}
+
+
+.plus-three{
+    padding: 12px;
+    outline: 2px solid #059669;
+    border-radius: 2px;
+ 
+}
+
+.plus-three-away{
+    padding: 12px;
+    outline: 2px solid #059669;
+    border-radius: 2px;
+}
+
+.third-one{
+    font-family: myFont;
+    font-size: 16px;
+    color: white;
+}
+
+.third-one-away{
+    font-family: myFont;
+    font-size: 16px;
+    color: white;
+}
+
+.right-Aw{
+    text-align: center;
+    font-size:36px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    color: white;
+}
